@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+.cont{
+  height: 768px; 
+  width: 1024px;
+  overflow: hidden;
+}
+
+.animate0{
+  transition: all 0.4s ease-in-out; 
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 3072px; 
+  transform: translateX(-2048px);
+}
+
+.slide{
+  height: 768px; 
+  width: 1024px; 
+}
+
+
+.control{
+  position: absolute;
+  margin-top: -150px; 
+  z-index: 1; 
+}
+
+.slider{
+  position: absolute;
+  margin-top: 45px; 
+  transform: translateX(800px);
+  z-index: 2; 
+}
+
+.animate1{
+  transition: all 0.4s ease-in-out; 
+}
+
+.animate2{
+  transition: all 0.2s ease-in-out; 
+}
+
+.round1{
+  width: 50px; height: 50px; 
+  position: absolute;
+  left: 564px; 
+  top: 263px; 
+}
+
+.round2{
+  width: 30px; height: 30px; 
+  position: absolute;
+  left: 273px; 
+  top: 427px;
+}
+
+.round3{
+  width: 15px; height: 15px; 
+  position: absolute;
+  left: 822px; 
+  top: 518px;
+}
+
+.round4{
+  width: 15px; height: 15px; 
+  position: absolute;
+  left: 480px; 
+  top: 536px; 
+}
+
+.pagination{
+  position: fixed;
+  z-index: 5; 
+  top: 343px;
+  left: 980px; 
+}
+
+
+.pagin{
+  height: 14px; 
+  width: 14px; 
+  border-radius: 7px;  
+  background-color: white;
+  margin: 10px; 
+  transition: 0.5s; 
+}
+
+.todown{
+  position: fixed;
+  top: 684px;  
+  z-index: 1;
+}
+
+
